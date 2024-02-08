@@ -1,0 +1,38 @@
+@import url("assets/fonts/fonts.css");
+
+:root {
+  --primary-color: #1e2124;
+  --secondary-color: #424549;
+
+  --button-color: #7289da;
+
+  --text-color: white;
+  --text-secondary-color: #99aab5;
+
+  --global-border-rad: 2px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  padding: 0;
+  margin: 0;
+  background: var(--primary-color);
+  color: var(--text-color);
+  font-family: "gg sans";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
