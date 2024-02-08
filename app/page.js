@@ -50,6 +50,7 @@ export default function Home() {
     e.preventDefault();
     if (password !== confirmPassword) {
       setPassConfInv(true)
+      return
     } else {
       setPassConfInv(false)
     }
